@@ -76,7 +76,7 @@ def test_yatra(data):
 
     Create_Account=driver.find_element(By.ID, "signup-form-continue-btn")
     Create_Account.click()  
-    logging.warning("Account created successfully")    
-
+    logging.warning("Account created successfully")
     time.sleep(5)
+    driver.get_screenshot_as_file(r"C:\vscode_with_selenium\screenshots\test_yatra.png")    
     

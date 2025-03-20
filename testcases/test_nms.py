@@ -49,4 +49,4 @@ class TestNMS:
         SA.Add_Subscribers(file_path)
         time.sleep(4)
 
-        logging.warning("Subscriber added successfully")
+        self.driver.get_screenshot_as_file(r"C:\vscode_with_selenium\screenshots\test_nms1.png")
