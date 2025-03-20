@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from ddt import ddt, data, unpack
 
 #this code is not working as expected because the xpath is not working properly
+# @ddt
+# @dat
 @data("email, mobile, password, title_card, fname, lname", (["addalasaicse2019@gmail.com", "8247853855", "A868850@s", "Mr", "Sai venkatesh", "Addala"], ["saivenkateshaddala@gmail.com", "9030831377", "A868850@s", "Mr", "Sai venkatesh", "Addala"]))
 @unpack
 def test_yatra(email, mobile, password, title_card, fname, lname):
