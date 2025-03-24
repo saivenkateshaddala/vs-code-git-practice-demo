@@ -35,7 +35,7 @@ class NetworkSelect():
     def confirm_button_click(self):
         self.driver.find_element(By.XPATH, self.confirm_button).click()
 
-     
+     #this is a commit
 
     def Network_select(self):
         self.Network_masternet()
